@@ -9,4 +9,4 @@ jobs:
       - name: Say Hello
         run: echo "Hello from hello"
       - name: Print Date
-        run: echo date
+        run: echo $(date)
